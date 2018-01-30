@@ -1,0 +1,186 @@
+body {
+	margin:0;
+	padding: 0;
+}
+header {
+	height: 110px;
+}
+.container {
+	margin: 0 auto;
+	width: 1100px;
+}
+.logo {
+	margin-top: 40px;
+	float: left;
+}
+nav {
+	float: right;
+	font-weight: 600;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+	margin-top: 30px;
+	font-weight: 500px;
+	font-family: 'Aleo Regular', arial;
+
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 50px;
+	font-size: 15px;
+}
+.menu li a{
+	color: #3b3b3b;
+	text-decoration: none;
+}
+.background {
+	height: 575px;
+	background: url(img/фон.png) no-repeat center top / cover;
+}
+.first {
+	position: absolute;
+}
+.top-tagline {
+	margin-left: 160px;
+	margin-top: 215px;
+}
+.bottom-tagline{
+	display: flex;
+	flex-direction: row;
+	margin-left: 310px;
+	padding-top: 360px; 
+}
+.bottom-tagline-text {
+	margin-right: 30px;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+.menu-picture{
+	text-align: center;
+	height: 35px;
+}
+.all-menu {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Aleo Regular', arial;
+
+}
+.all-left-menu {
+	width: 550px;
+	display: flex;
+	flex-direction: row;
+}
+.all-menu h3 {
+	font-weight: 500;
+	padding-top: 20px;
+
+}
+.left-menu p {
+	opacity: 0.5;
+	margin-top: -15px;
+	font-size: 14px;
+}
+.left-price h3{
+	font-weight: 500;
+	padding-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 230px;
+}
+.all-right-menu {
+	display: flex;
+	flex-direction: row;
+	width: 550px;
+	margin-left: 120px;
+}
+.right-menu p {
+	opacity: 0.5;
+	margin-top: -15px;
+	font-size: 14px;
+}
+.right-price h3{
+	margin-left: 230px;
+	margin-bottom: 40px;
+}
+.load-more {
+	margin-left: 480px;
+	margin-top: 80px;
+}
+
+.photo h2 {
+	font-family: 'Aleo Regular', arial;
+	font-size: 20px;
+	margin-top: 80px;
+}
+.text1{
+	margin-top: 100px;
+}
+.navigation {
+	float: right;
+}
+.all_dish{
+	display: flex;
+	flex-direction: row;
+	font-family: 'Aleo Regular', arial;
+
+}
+.dish2 {
+	margin-left: 60px;
+}
+.dish_price {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	opacity: 0.6;
+	margin-top: -53px;
+}
+.first-h {
+	margin-left: 200px;
+}
+.other_h {
+	margin-left: 263px;
+}
+.other_stars {
+	margin-left: 205px;
+}
+.the_gallery h2 {
+	font-family: 'Aleo Regular', arial;
+	font-size: 20px;
+	margin-top: 200px;
+}
+.gallery {
+	margin-top: 100px;
+}
+footer {
+	margin-top: 200px;
+	background-color: #3b3b3b;
+	height: 315px;
+}
+.all_footer {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Aleo Regular', arial;
+}
+.footer_block {
+	margin-top: 100px;
+	width: 200px;
+}
+.footer_block1 {
+	width: 200px;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+.footer_block img {
+	margin-top: 15px;
+}
+.white {
+	color: #fff;
+	
+}
+.gray {
+	color: #ececec;
+	opacity: 0.6;
+}
