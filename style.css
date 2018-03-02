@@ -4,6 +4,7 @@ body {
 }
 header {
 	height: 110px;
+
 }
 .container {
 	margin: 0 auto;
@@ -24,13 +25,13 @@ nav {
 	margin-top: 30px;
 	font-weight: 500px;
 	font-family: 'Aleo Regular', arial;
-
 }
 .menu li {
 	float: left;
 	display: block;
 	margin-right: 50px;
 	font-size: 15px;
+	text-decoration: none;
 }
 .menu li a{
 	color: #3b3b3b;
@@ -38,7 +39,7 @@ nav {
 }
 .background {
 	height: 575px;
-	background: url(img/фон.png) no-repeat center top / cover;
+	background: url(img/fone.png) no-repeat center top / cover;
 }
 .first {
 	position: absolute;
